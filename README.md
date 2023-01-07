@@ -14,7 +14,7 @@ Projects deploying an API management platform on AWS to support STEM payroll pro
 +	Provide salary information service within the enterprise: You can provide the API interface to the personnel within the enterprise to facilitate them to view their salary information.
 +	Integrate salary information into other systems: You can use the API interface to import salary information into other systems, such as financial management systems or human resource management systems.
 ## 2. Previous case study
-### 5.Methodology
+## 5.Methodology
 ![1673025932367](https://user-images.githubusercontent.com/102680739/211156266-cbecc503-5268-4194-9303-2bbf4021eee5.png)
 ![image](https://user-images.githubusercontent.com/102680739/211156273-aa60eeff-eb61-4d95-be0f-669f892bd618.png)
 ### 5.1 Dataset Collected
@@ -64,4 +64,59 @@ Why use cross-validation?
 + It can effectively solve the problem of poor model generalization ability caused by unbalanced data division.
 + It can effectively evaluate the generalization ability of the model, that is, the performance of the model on unknown data.
 + The stability and reliability of the model can be improved.
+
+The best model puts on an NFS filesystem and will use Python's os library to read and write files.
+
+First, NFS mount on your machine. Then, use the os.listdir() function to get a list of files in the NFS directory, and use the os.path.join() function to concatenate the filenames with the NFS path.
+
++ Use the Amazon EC2 service to create a virtual machine instance to run the API management platform.
++ Create a database using the Amazon RDS service to store data related to payroll processing.
++ Install the required systems and software on the virtual machine instance, including the operating system, database management system, API management platform, etc.
++ Install the required systems and software on the virtual machine instance, including the operating system, database management system, API management platform, etc.
++ Deploy the API management platform on the virtual machine instance and connect to the database.
++ Use the Amazon API Gateway service to build an API gateway, and connect the API gateway to the API management platform on the virtual machine instance.
++ Build user pools using the Amazon Cognito service to manage user authentication and authorization.
++ Build a messaging service using the Amazon SNS service to send notifications about payroll processing.
++ Build object storage using the Amazon S3 service to store files related to payroll processing.
+
+The result of the API request is displayed in the UI：
+
+## 6.Description of all components involved in the project
++ API (Application Programming Interface): API is the interface of application programs and a specification for communication between software systems. An API usually + consists of a set of functions, methods, or interfaces that allow a program to access the functionality and data of another program.
++ Flask: Flask is a lightweight Python web framework that can quickly build web applications. Flask provides a simple templating system and routing mechanism that can + help developers quickly build web applications.
++ Nginx: Nginx is a high-performance HTTP server, often used as a reverse proxy server, load balancer and HTTP cache. Nginx can handle high concurrent requests and + works with various web application frameworks like Flask.
++ Python: for data cleaning and model processing.
++ Testing: Used to select the best model.
++ NFS file system: used to store models.
++ RDS MSSQL database: used to store and manage data.
++ AWS cloud service: used to deploy API management platform and provide email service.
++ UI interface: used to display the processing results.
+
+## 7.Results, discussion 
++ Advantages of the project
+Payroll information can be processed quickly and efficiently by using AWS's cloud computing technology and API management platform. Using the AWS email service, the processing results can be easily sent to users. These advantages enable our project to meet the needs of users and ensure the stability and reliability of the project.
++ project deficiencies
+Although our project has many advantages, there are still some shortcomings. For example, our system currently only handles Stem salary information, if we want to expand to other industries, it may require more development work. Additionally, our system currently only handles payroll information and may need to be extended if we want to provide more functionality.
++ Project direction
+To further develop our project, we can consider the following directions:
+
+Expand the functions of the system: We can consider providing more functions in addition to the original salary information processing functions, such as social security, provident fund, etc., so that our system can better meet the needs of users.
+
+Expand the coverage of the system: We can consider expanding our system to other industries, such as education, medical care, etc., so that our system can more widely meet the needs of users.
+
+Look for more cooperation opportunities: We can consider cooperating with more companies to provide them with salary information processing services. In this way, our system can gain more users, and at the same time bring us more benefits.
+
+## 8.Conclusion
+"By deploying an API management platform on AWS, we can process salary information of Stem companies more conveniently. We can use API to request salary information and use AWS Simple Email Service (SES) to send processing results to users. In this way, we It can provide salary information to users faster, process salary information quickly and efficiently, and meet user needs.
+
+We have deployed an API management platform on AWS, and used AWS's cloud computing technology and email service to process Stem salary information. Our system has been able to accept user requests and return salary information using our API interface. At the same time, we are constantly improving our system to make the processing faster, more stable, and provide a better user experience.
+
+## 9.future outlook
+In the future, we hope to expand our system further to handle more payroll information and provide richer functionality. We also hope to cooperate with more companies to provide better salary information services.
+
+## 10.	References
+1.	AWS Case Studies：https://aws.amazon.com/cn/solutions/case-studies/
+2.	API Management Case Studies：https://www.akamai.com/us/en/solutions/api-management/case-studies.jsp
+3.	Mulesoft Case Studies：https://www.mulesoft.com/customers/case-studies
+4.	WSO2 Case Studies：https://wso2.com/customers/case-studies/
 
