@@ -13,3 +13,5 @@ Projects deploying an API management platform on AWS to support STEM payroll pro
 + Provide salary information service on the website or mobile application: You can provide salary information through the API interface for users to view on the website or mobile application.
 +	Provide salary information service within the enterprise: You can provide the API interface to the personnel within the enterprise to facilitate them to view their salary information.
 +	Integrate salary information into other systems: You can use the API interface to import salary information into other systems, such as financial management systems or human resource management systems.
+## 4.Methodology
+![1673025855545](https://user-images.githubusercontent.com/102680739/211156211-6c609f36-7813-4062-8244-3046b5f01a89.png)
