@@ -26,9 +26,10 @@ Figure 2: Description of the attributes contained in the dataset.
 ![image](https://user-images.githubusercontent.com/102680739/211156539-639d6dcb-6b58-44b0-b5a3-2b028faa866f.png)
 ### 5.2 Data Preprocessing
 The dataset contained a lot of noisy data and further pre-processing was needed. We used the following Python modules for our data cleaning:
-•	Pandas
-•	NumPy
-•	Scikit-Learn
+
++	Pandas
++	NumPy
++	Scikit-Learn
 
 Step 1: Remove Null Values
 
