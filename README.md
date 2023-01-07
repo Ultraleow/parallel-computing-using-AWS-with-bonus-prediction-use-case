@@ -14,7 +14,7 @@ Projects deploying an API management platform on AWS to support STEM payroll pro
 +	Provide salary information service within the enterprise: You can provide the API interface to the personnel within the enterprise to facilitate them to view their salary information.
 +	Integrate salary information into other systems: You can use the API interface to import salary information into other systems, such as financial management systems or human resource management systems.
 ## 2. Previous case study
-## 5.Methodology
+### 5.Methodology
 ![1673025932367](https://user-images.githubusercontent.com/102680739/211156266-cbecc503-5268-4194-9303-2bbf4021eee5.png)
 ![image](https://user-images.githubusercontent.com/102680739/211156273-aa60eeff-eb61-4d95-be0f-669f892bd618.png)
 ### 5.1 Dataset Collected
@@ -24,4 +24,17 @@ which was originally scraped from levels.fyi with some additional cleaning. This
 
 Figure 2: Description of the attributes contained in the dataset.
 ![image](https://user-images.githubusercontent.com/102680739/211156539-639d6dcb-6b58-44b0-b5a3-2b028faa866f.png)
+### 5.2 Data Preprocessing
+The dataset contained a lot of noisy data and further pre-processing was needed. We used the following Python modules for our data cleaning:
+•	Pandas
+•	NumPy
+•	Scikit-Learn
+
+Step 1: Remove Null Values
+
+Delete records with null values in important attributes in the dataset. This reduces the number of records from 60,000 to approximately 21,000.
+
+Step 2: Remove unnecessary attributes
+
+We removed columns that were not helpful for salary prediction. Below are the columns we removed based on our initial understanding of the dataset and the rationale behind the removal.
 
