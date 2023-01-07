@@ -51,3 +51,17 @@ Step 5: Labels Encoding Categorical Attributes for Modeling
 
 We convert these categorical attributes that will be used for modeling into numerical attributes in order to fit them to our machine learning model. Especially for the categorical attribute "company", we label the top 89 companies according to market capitalization, and those companies that are not among these 89 companies are labeled as "89", similar to the "other" category, because the dataset contains hundreds of company.
 
+![image](https://user-images.githubusercontent.com/102680739/211156739-cbc98886-19f4-4d95-9ec1-0752eeccd772.png)
+
+### 5.3 Training + Validation
+
+At this stage, we trained three different machine learning algorithms for our dataset using Python 3. Since our goal is to predict salary (continuous data), only regression algorithms like Multiple Linear Regression (MLR), Random Forest, and K Nearest Neighbors (KNN) were chosen.
+
+When selecting the best model, we will use cross-validation. Divide the training data into several disjoint subsets, each time use one subset as the validation set, and the remaining subsets as the training set, train multiple models, and evaluate the model performance on the validation set. Finally, choose the model that performs best on the validation set among all models.
+
+Why use cross-validation?
+
++ It can effectively solve the problem of poor model generalization ability caused by unbalanced data division.
++ It can effectively evaluate the generalization ability of the model, that is, the performance of the model on unknown data.
++ The stability and reliability of the model can be improved.
+
