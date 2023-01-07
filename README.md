@@ -39,3 +39,15 @@ Step 2: Remove unnecessary attributes
 
 We removed columns that were not helpful for salary prediction. Below are the columns we removed based on our initial understanding of the dataset and the rationale behind the removal.
 
+Step 3: Standardize the company name
+
+There is a material inconsistency in the company name. For example, Google can have many variations such as "google", "Google Inc", "GOOGLE", etc. We normalize their names to avoid duplicate categories in attributes.
+
+Step 4: Preprocess the "location" attribute
+
+The values in the attribute contain city, state, and country, but they are separated by commas, which makes them a string data type. We separated them and created additional attributes for our dataset.
+
+Step 5: Labels Encoding Categorical Attributes for Modeling
+
+We convert these categorical attributes that will be used for modeling into numerical attributes in order to fit them to our machine learning model. Especially for the categorical attribute "company", we label the top 89 companies according to market capitalization, and those companies that are not among these 89 companies are labeled as "89", similar to the "other" category, because the dataset contains hundreds of company.
+
