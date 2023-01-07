@@ -94,10 +94,13 @@ The result of the API request is displayed in the UI：
 
 ## 7. Results, discussion 
 + Advantages of the project
+
 Payroll information can be processed quickly and efficiently by using AWS's cloud computing technology and API management platform. Using the AWS email service, the processing results can be easily sent to users. These advantages enable our project to meet the needs of users and ensure the stability and reliability of the project.
 + project deficiencies
+
 Although our project has many advantages, there are still some shortcomings. For example, our system currently only handles Stem salary information, if we want to expand to other industries, it may require more development work. Additionally, our system currently only handles payroll information and may need to be extended if we want to provide more functionality.
 + Project direction
+
 To further develop our project, we can consider the following directions:
 
 Expand the functions of the system: We can consider providing more functions in addition to the original salary information processing functions, such as social security, provident fund, etc., so that our system can better meet the needs of users.
