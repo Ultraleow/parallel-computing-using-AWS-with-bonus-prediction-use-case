@@ -21,3 +21,7 @@ Projects deploying an API management platform on AWS to support STEM payroll pro
 This dataset was obtained from Kaggle：https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries
 
 which was originally scraped from levels.fyi with some additional cleaning. This dataset contains 29 attributes with over 60,000 of records, focusing on the salaries of employees in a variety of technological companies. Below are the descriptions of the attributes contained within the dataset.
+
+Figure 2: Description of the attributes contained in the dataset.
+![image](https://user-images.githubusercontent.com/102680739/211156539-639d6dcb-6b58-44b0-b5a3-2b028faa866f.png)
+
