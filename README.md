@@ -91,6 +91,9 @@ The result of the API request is displayed in the UI：
 + RDS MSSQL database: used to store and manage data.
 + AWS cloud service: used to deploy API management platform and provide email service.
 + UI interface: used to display the processing results.
++ The inference results need to be returned and displayed in the UI for users to view.
++ Email the user: Finally, you can email the results to the user for easier viewing.
++ Use the database RDS MSSQL for data block processing: If the new total data volume is a multiple of 50, you need to obtain the data and create 3 jobs with different model parameters for training and verification.
 
 ## 7. Results, discussion 
 + Advantages of the project
