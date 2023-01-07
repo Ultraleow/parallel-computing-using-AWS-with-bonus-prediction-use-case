@@ -79,7 +79,9 @@ First, NFS mount on your machine. Then, use the os.listdir() function to get a l
 + Build a messaging service using the Amazon SNS service to send notifications about payroll processing.
 + Build object storage using the Amazon S3 service to store files related to payroll processing.
 
-The result of the API request is displayed in the UI：
+The result of the API request is displayed in the UI：The inference results need to be returned and displayed in the UI for users to view.
++ Email the user: Finally, you can email the results to the user for easier viewing.
++ Use the database RDS MSSQL for data block processing: If the new total data volume is a multiple of 50, you need to obtain the data and create 3 jobs with different model parameters for training and verification.
 
 ## 6. Description of all components involved in the project
 + API (Application Programming Interface): API is the interface of application programs and a specification for communication between software systems. An API usually + consists of a set of functions, methods, or interfaces that allow a program to access the functionality and data of another program.
@@ -91,9 +93,7 @@ The result of the API request is displayed in the UI：
 + RDS MSSQL database: used to store and manage data.
 + AWS cloud service: used to deploy API management platform and provide email service.
 + UI interface: used to display the processing results.
-+ The inference results need to be returned and displayed in the UI for users to view.
-+ Email the user: Finally, you can email the results to the user for easier viewing.
-+ Use the database RDS MSSQL for data block processing: If the new total data volume is a multiple of 50, you need to obtain the data and create 3 jobs with different model parameters for training and verification.
+
 
 ## 7. Results, discussion 
 + Advantages of the project
