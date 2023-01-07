@@ -13,7 +13,10 @@ Projects deploying an API management platform on AWS to support STEM payroll pro
 + Provide salary information service on the website or mobile application: You can provide salary information through the API interface for users to view on the website or mobile application.
 +	Provide salary information service within the enterprise: You can provide the API interface to the personnel within the enterprise to facilitate them to view their salary information.
 +	Integrate salary information into other systems: You can use the API interface to import salary information into other systems, such as financial management systems or human resource management systems.
-## 4.Methodology
+## 2. Previous case study
+## 5.Methodology
 ![1673025932367](https://user-images.githubusercontent.com/102680739/211156266-cbecc503-5268-4194-9303-2bbf4021eee5.png)
 ![image](https://user-images.githubusercontent.com/102680739/211156273-aa60eeff-eb61-4d95-be0f-669f892bd618.png)
-
+### 5.1 Dataset Collected
+This dataset was obtained from Kaggle：https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries
+which was originally scraped from levels.fyi with some additional cleaning. This dataset contains 29 attributes with over 60,000 of records, focusing on the salaries of employees in a variety of technological companies. Below are the descriptions of the attributes contained within the dataset.
