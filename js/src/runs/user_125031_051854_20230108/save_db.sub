@@ -1,0 +1,11 @@
+executable = save_db.py
+output = save_db.out
+arguments = /home/ubuntu/src/runs/user_125031_051854_20230108
+error = save_db.err
+log = save_db.log
+stream_output = True
+request_cpus = 1
+request_memory = 128MB
+request_disk = 128MB
+
+queue

@@ -1,0 +1,11 @@
+executable = send_email.py
+output = email.out
+arguments = /home/ubuntu/src/runs/user_125031_051854_20230108;ultraleow@gmail.com
+error = email.err
+log = email.log
+stream_output = True
+request_cpus = 1
+request_memory = 128MB
+request_disk = 128MB
+
+queue

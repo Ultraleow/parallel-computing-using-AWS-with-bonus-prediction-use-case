@@ -1,0 +1,190 @@
+000 (809.000.000) 2023-01-08 04:50:33 Job submitted from host: <172.31.2.92:9618?addrs=172.31.2.92-9618&alias=ip-172-31-2-92.ec2.internal&noUDP&sock=schedd_521_f0ee>
+    DAG Node: get_data_and_split:0
+...
+001 (809.000.000) 2023-01-08 04:50:47 Job executing on host: <172.31.11.242:9618?addrs=172.31.11.242-9618&alias=ip-172-31-11-242.ec2.internal&noUDP&sock=startd_516_82f5>
+...
+005 (809.000.000) 2023-01-08 04:50:48 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	16309  -  Run Bytes Sent By Job
+	811  -  Run Bytes Received By Job
+	16309  -  Total Bytes Sent By Job
+	811  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       26   131072    907910 
+	   Memory (MB)          :        0      128      1960 
+
+	Job terminated of its own accord at 2023-01-08T04:50:48Z with exit-code 0.
+...
+000 (810.000.000) 2023-01-08 04:50:58 Job submitted from host: <172.31.2.92:9618?addrs=172.31.2.92-9618&alias=ip-172-31-2-92.ec2.internal&noUDP&sock=schedd_521_f0ee>
+    DAG Node: train_it:0
+...
+000 (812.000.000) 2023-01-08 04:50:58 Job submitted from host: <172.31.2.92:9618?addrs=172.31.2.92-9618&alias=ip-172-31-2-92.ec2.internal&noUDP&sock=schedd_521_f0ee>
+    DAG Node: train_it:1
+...
+000 (813.000.000) 2023-01-08 04:50:58 Job submitted from host: <172.31.2.92:9618?addrs=172.31.2.92-9618&alias=ip-172-31-2-92.ec2.internal&noUDP&sock=schedd_521_f0ee>
+    DAG Node: train_it:2
+...
+001 (810.000.000) 2023-01-08 04:50:59 Job executing on host: <172.31.11.242:9618?addrs=172.31.11.242-9618&alias=ip-172-31-11-242.ec2.internal&noUDP&sock=startd_516_82f5>
+...
+005 (810.000.000) 2023-01-08 04:51:00 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	951201  -  Run Bytes Sent By Job
+	2334  -  Run Bytes Received By Job
+	951201  -  Total Bytes Sent By Job
+	2334  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :      941   131072    907910 
+	   Memory (MB)          :        0      128      1960 
+
+	Job terminated of its own accord at 2023-01-08T04:51:00Z with exit-code 0.
+...
+001 (812.000.000) 2023-01-08 04:51:01 Job executing on host: <172.31.11.242:9618?addrs=172.31.11.242-9618&alias=ip-172-31-11-242.ec2.internal&noUDP&sock=startd_516_82f5>
+...
+001 (813.000.000) 2023-01-08 04:51:01 Job executing on host: <172.31.11.242:9618?addrs=172.31.11.242-9618&alias=ip-172-31-11-242.ec2.internal&noUDP&sock=startd_516_82f5>
+...
+005 (812.000.000) 2023-01-08 04:51:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	60580  -  Run Bytes Sent By Job
+	2334  -  Run Bytes Received By Job
+	60580  -  Total Bytes Sent By Job
+	2334  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       71   131072    907910 
+	   Memory (MB)          :        0      128      1960 
+
+	Job terminated of its own accord at 2023-01-08T04:51:03Z with exit-code 0.
+...
+005 (813.000.000) 2023-01-08 04:51:03 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	704289  -  Run Bytes Sent By Job
+	2334  -  Run Bytes Received By Job
+	704289  -  Total Bytes Sent By Job
+	2334  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :      700   131072    907910 
+	   Memory (MB)          :        0      128      1960 
+
+	Job terminated of its own accord at 2023-01-08T04:51:03Z with exit-code 0.
+...
+000 (000.2147483647.001) 2023-01-08 04:51:08 Job submitted from host: <dummy-submit-for-noop-job>
+    DAG Node: __JOIN__:0
+...
+005 (000.2147483647.001) 2023-01-08 04:51:08 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (816.000.000) 2023-01-08 04:51:18 Job submitted from host: <172.31.2.92:9618?addrs=172.31.2.92-9618&alias=ip-172-31-2-92.ec2.internal&noUDP&sock=schedd_521_f0ee>
+    DAG Node: test_it:0
+...
+000 (817.000.000) 2023-01-08 04:51:18 Job submitted from host: <172.31.2.92:9618?addrs=172.31.2.92-9618&alias=ip-172-31-2-92.ec2.internal&noUDP&sock=schedd_521_f0ee>
+    DAG Node: test_it:1
+...
+000 (818.000.000) 2023-01-08 04:51:18 Job submitted from host: <172.31.2.92:9618?addrs=172.31.2.92-9618&alias=ip-172-31-2-92.ec2.internal&noUDP&sock=schedd_521_f0ee>
+    DAG Node: test_it:2
+...
+001 (816.000.000) 2023-01-08 04:51:27 Job executing on host: <172.31.11.242:9618?addrs=172.31.11.242-9618&alias=ip-172-31-11-242.ec2.internal&noUDP&sock=startd_516_82f5>
+...
+001 (818.000.000) 2023-01-08 04:51:27 Job executing on host: <172.31.11.6:9618?addrs=172.31.11.6-9618&alias=ip-172-31-11-6.ec2.internal&noUDP&sock=startd_515_d35d>
+...
+001 (817.000.000) 2023-01-08 04:51:27 Job executing on host: <172.31.11.242:9618?addrs=172.31.11.242-9618&alias=ip-172-31-11-242.ec2.internal&noUDP&sock=startd_516_82f5>
+...
+005 (818.000.000) 2023-01-08 04:51:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	136  -  Run Bytes Sent By Job
+	1171  -  Run Bytes Received By Job
+	136  -  Total Bytes Sent By Job
+	1171  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       11   131072    950112 
+	   Memory (MB)          :        0      128      1960 
+
+	Job terminated of its own accord at 2023-01-08T04:51:28Z with exit-code 0.
+...
+005 (816.000.000) 2023-01-08 04:51:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	136  -  Run Bytes Sent By Job
+	1171  -  Run Bytes Received By Job
+	136  -  Total Bytes Sent By Job
+	1171  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       11   131072    907910 
+	   Memory (MB)          :        0      128      1960 
+
+	Job terminated of its own accord at 2023-01-08T04:51:28Z with exit-code 0.
+...
+005 (817.000.000) 2023-01-08 04:51:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	136  -  Run Bytes Sent By Job
+	1171  -  Run Bytes Received By Job
+	136  -  Total Bytes Sent By Job
+	1171  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       11   131072    907910 
+	   Memory (MB)          :        0      128      1960 
+
+	Job terminated of its own accord at 2023-01-08T04:51:28Z with exit-code 0.
+...
+000 (819.000.000) 2023-01-08 04:51:38 Job submitted from host: <172.31.2.92:9618?addrs=172.31.2.92-9618&alias=ip-172-31-2-92.ec2.internal&noUDP&sock=schedd_521_f0ee>
+    DAG Node: should_i_update:0
+...
+001 (819.000.000) 2023-01-08 04:51:39 Job executing on host: <172.31.11.242:9618?addrs=172.31.11.242-9618&alias=ip-172-31-11-242.ec2.internal&noUDP&sock=startd_516_82f5>
+...
+005 (819.000.000) 2023-01-08 04:51:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	1460  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	1460  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       11   131072    907910 
+	   Memory (MB)          :        0      128      1960 
+
+	Job terminated of its own accord at 2023-01-08T04:51:40Z with exit-code 0.
+...

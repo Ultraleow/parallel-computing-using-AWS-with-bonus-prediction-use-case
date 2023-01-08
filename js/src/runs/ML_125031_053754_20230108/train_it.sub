@@ -1,0 +1,11 @@
+executable = training.py
+output = training$(CLUSTER).out
+arguments = /home/ubuntu/src/runs/ML_125031_053754_20230108;$(x)
+error = training$(CLUSTER).err
+log = training$(CLUSTER).log
+stream_output = True
+request_cpus = 1
+request_memory = 128MB
+request_disk = 128MB
+
+queue

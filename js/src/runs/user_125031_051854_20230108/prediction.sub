@@ -1,0 +1,11 @@
+executable = prediction.py
+output = prediction.out
+arguments = /home/ubuntu/src/runs/user_125031_051854_20230108
+error = prediction.err
+log = prediction.log
+stream_output = True
+request_cpus = 1
+request_memory = 128MB
+request_disk = 128MB
+
+queue

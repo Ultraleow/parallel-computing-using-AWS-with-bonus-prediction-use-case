@@ -1,0 +1,23 @@
+# BEGIN META
+# END META
+# BEGIN NODES AND EDGES
+JOB get_data_and_split:0 get_data_and_split.sub
+PARENT get_data_and_split:0 CHILD train_it:0 train_it:1 train_it:2
+JOB train_it:0 train_it.sub
+VARS train_it:0 x="1"
+JOB train_it:1 train_it.sub
+VARS train_it:1 x="2"
+JOB train_it:2 train_it.sub
+VARS train_it:2 x="3"
+PARENT train_it:0 train_it:1 train_it:2 CHILD __JOIN__:0
+PARENT __JOIN__:0 CHILD test_it:0 test_it:1 test_it:2
+JOB test_it:0 test_it.sub
+VARS test_it:0 x="1"
+JOB test_it:1 test_it.sub
+VARS test_it:1 x="2"
+JOB test_it:2 test_it.sub
+VARS test_it:2 x="3"
+PARENT test_it:0 test_it:1 test_it:2 CHILD should_i_update:0
+JOB should_i_update:0 should_i_update.sub
+JOB __JOIN__:0 __JOIN__.sub NOOP
+# END NODES AND EDGES

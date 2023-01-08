@@ -1,0 +1,11 @@
+﻿company,title,totalyearlycompensation,yearsofexperience,yearsatcompany,basesalary,gender,Race,Education,state,country
+Google,Software Engineer,400000,5,5,210000,Male,Asian,PhD, CA,US
+Microsoft,Software Engineer,136000,3,2,124000,Male,Two Or More,Bachelor's Degree, WA,US
+Google,Software Engineer,337000,6,6,177000,Male,Asian,Bachelor's Degree, CA,US
+Microsoft,Software Engineer,222000,4,4,164000,Male,Asian,Master's Degree, WA,US
+Blend,Software Engineer,187000,5,0,165000,Male,White,Bachelor's Degree, CA,US
+Amazon,Software Engineer,310000,15,3,160000,Male,Asian,Bachelor's Degree, WA,US
+Chevron,Software Engineer,113000,3,3,103000,Male,Hispanic,Bachelor's Degree, TX,US
+Amazon,Software Engineering Manager,620000,19,7,160000,Male,Asian,Bachelor's Degree, WA,US
+Shopify,Software Engineer,98000,9,4,78000,Male,Asian,Bachelor's Degree, ON,Canada
+Apple,Software Engineer,180000,1,1,130000,Male,Asian,Bachelor's Degree, BC,Canada

@@ -1,0 +1,101 @@
+company,title,totalyearlycompensation,yearsofexperience,yearsatcompany,basesalary,gender,Race,Education,state,country,bonus
+Google,Software Engineer,400000,5,5,210000,Male,Asian,PhD, CA,US,205760.0
+Microsoft,Software Engineer,136000,3,2,124000,Male,Two Or More,Bachelor's Degree, WA,US,137700.0
+Google,Software Engineer,337000,6,6,177000,Male,Asian,Bachelor's Degree, CA,US,210820.0
+Microsoft,Software Engineer,222000,4,4,164000,Male,Asian,Master's Degree, WA,US,204080.0
+Blend,Software Engineer,187000,5,0,165000,Male,White,Bachelor's Degree, CA,US,138990.0
+Amazon,Software Engineer,310000,15,3,160000,Male,Asian,Bachelor's Degree, WA,US,154800.0
+Chevron,Software Engineer,113000,3,3,103000,Male,Hispanic,Bachelor's Degree, TX,US,146510.0
+Amazon,Software Engineering Manager,620000,19,7,160000,Male,Asian,Bachelor's Degree, WA,US,210420.0
+Shopify,Software Engineer,98000,9,4,78000,Male,Asian,Bachelor's Degree, ON,Canada,204670.0
+Apple,Software Engineer,180000,1,1,130000,Male,Asian,Bachelor's Degree, BC,Canada,134180.0
+Square,Software Engineer,212000,5,1,140000,Male,Black,Some College, CA,US,148280.0
+Amazon,Software Engineer,210000,4,1,150000,Male,Hispanic,Highschool, WA,US,144170.0
+Salesforce,Software Engineer,68000,8,1,45000,Male,Asian,Master's Degree, KA,India,153340.0
+Amazon,Software Engineer,142000,0,0,112000,Male,Asian,Master's Degree, AZ,US,149870.0
+Intel,Software Engineer,129000,6,4,114000,Male,Two Or More,Master's Degree, CA,US,199410.0
+Facebook,Software Engineer,242000,2,2,167000,Male,White,Master's Degree, CA,US,133830.0
+PayPal,Software Engineer,215000,6,0,155000,Male,Asian,Master's Degree, TX,US,146330.0
+Twitter,Software Engineer,365000,10,6,187000,Male,White,Highschool, NY,US,205750.0
+Microsoft,Software Engineer,135000,1,0,110000,Female,Hispanic,Bachelor's Degree, WA,US,117300.0
+Microsoft,Software Engineer,173000,10,2,153000,Male,Asian,Bachelor's Degree, WA,US,146430.0
+Intel,Hardware Engineer,134000,6,6,130000,Male,Asian,Master's Degree, CA,US,209630.0
+Charles Schwab,Software Engineer,121000,9,4,111000,Male,Hispanic,Master's Degree, TX,US,199410.0
+Microsoft,Software Engineer,328000,12,0,215000,Male,Asian,Bachelor's Degree, CA,US,146380.0
+Tanium,Software Engineer,300000,15,0,160000,Male,White,Master's Degree, IL,US,138940.0
+Facebook,Software Engineering Manager,309000,14,2,201000,Male,Two Or More,Master's Degree, CA,US,140790.0
+Google,Software Engineer,46000,2,0,27000,Male,Asian,Bachelor's Degree, KA,India,136450.0
+ByteDance,Software Engineer,493000,10,0,215000,Female,Asian,Master's Degree, CA,US,146330.0
+Ticketmaster,Software Engineer,190000,10,6,180000,Male,Asian,Master's Degree, CA,US,209630.0
+Facebook,Software Engineer,255000,6,2,160000,Male,Asian,Master's Degree, CA,US,145800.0
+GoDaddy,Software Engineer,260000,15,2,210000,Male,White,Bachelor's Degree, WA,US,141420.0
+Amazon,Software Engineer,50000,3,3,36000,Male,Asian,Bachelor's Degree, HR,India,150660.0
+Salesforce,Software Engineer,74000,7,0,53000,Male,Asian,Master's Degree, AP,India,146330.0
+BrowserStack,Software Engineer,30000,2,2,27000,Male,Asian,Bachelor's Degree, MH,India,137840.0
+SmartSheet,Software Engineer,275000,10,3,170000,Female,White,Master's Degree, MA,US,149190.0
+Citi Bank,Software Engineer,287000,19,3,250000,Male,Asian,Master's Degree, NY,US,153710.0
+Johnson and Johnson,Product Designer,144000,7,2,126000,Female,Asian,Master's Degree, NY,US,145800.0
+KPMG,Management Consultant,266000,14,3,246000,Male,Asian,Master's Degree, TX,US,153710.0
+Apple,Product Manager,309000,10,1,220000,Male,Hispanic,Bachelor's Degree, CA,US,146400.0
+Amazon,Software Engineer,189000,2,0,135000,Male,Asian,Bachelor's Degree, WA,US,136450.0
+Amazon,Product Manager,347000,18,3,150000,Male,Asian,Master's Degree, WA,US,153710.0
+EY,Solution Architect,74000,17,0,74000,Male,Asian,Bachelor's Degree, HR,India,146380.0
+Amazon,Software Engineer,550000,10,6,160000,Male,White,PhD, MA,US,204560.0
+AMD,Software Engineer,232000,5,0,180000,Male,Two Or More,PhD, CA,US,138940.0
+Tiaa,Software Engineer,135000,6,6,120000,Male,White,Bachelor's Degree, NC,US,205750.0
+Facebook,Software Engineer,272000,2,0,165000,Male,Asian,Master's Degree, NY,US,136450.0
+EY,Management Consultant,100000,0,0,90000,Male,White,Bachelor's Degree, NY,US,138730.0
+MongoDB,Software Engineer,800000,15,8,250000,Male,White,Bachelor's Degree, NY,US,205350.0
+Facebook,Software Engineer,272000,5,0,165000,Other,White,Bachelor's Degree, WA,US,255060.0
+Apple,Software Engineer,162000,0,0,130000,Female,White,Bachelor's Degree, CA,US,143710.0
+Shopify,Software Engineer,99000,3,1,66000,Male,White,Bachelor's Degree, ON,Canada,143600.0
+PayPal,Software Engineer,190000,4,4,127000,Male,Asian,Bachelor's Degree, CA,US,204670.0
+Amazon,Software Engineer,252000,4,0,160000,Male,Asian,Bachelor's Degree, VA,US,142180.0
+Symantec,Software Engineer,89000,4,2,70000,Male,Asian,Bachelor's Degree, ON,Canada,143780.0
+SAP,Product Manager,230000,20,15,185000,Male,White,Master's Degree, CA,US,204160.0
+Amazon,Solution Architect,181000,10,2,180000,Male,Black,Bachelor's Degree, CA,US,141420.0
+Flexport,Software Engineer,381000,5,5,198000,Male,White,Master's Degree, CA,US,201090.0
+Oracle,Software Engineer,176000,0,0,120000,Female,White,Bachelor's Degree, CO,US,138730.0
+Expedia,Software Engineer,162000,5,2,140000,Male,Asian,Master's Degree, WA,US,145800.0
+Google,Software Engineer,289000,6,1,163000,Male,Asian,Master's Degree, CA,US,153340.0
+Facebook,Software Engineer,334000,11,3,191000,Male,Hispanic,Master's Degree, CA,US,149190.0
+Microsoft,Software Engineering Manager,441000,13,9,185000,Other,White,Master's Degree, WA,US,292490.0
+HP,Product Manager,42000,7,5,40000,Male,Asian,Master's Degree, KA,India,205760.0
+Fujitsu,Software Engineer,107000,4,4,107000,Male,Asian,Master's Degree, CA,US,204080.0
+ByteDance,Software Engineer,275000,5,0,150000,Male,Asian,Bachelor's Degree, CA,US,146380.0
+HashiCorp,Solution Architect,213000,10,2,167000,Male,White,Bachelor's Degree, CA,US,141420.0
+Uber,Sales,370000,15,1,210000,Male,White,Bachelor's Degree, IL,US,148370.0
+VMWare,Technical Program Manager,175000,16,3,150000,Female,White,Bachelor's Degree, TX,US,150280.0
+Codecademy,Software Engineer,155000,4,0,150000,Female,White,Bachelor's Degree, NY,US,134790.0
+Bloomberg,Software Engineer,165000,3,1,142000,Male,Asian,Master's Degree, NY,US,148150.0
+LinkedIn,Software Engineer,215000,6,0,150000,Male,Asian,Master's Degree, CA,US,146330.0
+Deloitte,Management Consultant,90000,0,0,86000,Male,Asian,Bachelor's Degree, CA,US,149600.0
+PwC,Management Consultant,154000,6,5,134000,Male,Asian,Master's Degree, NY,US,205760.0
+Lyft,Software Engineer,390000,6,0,192000,Male,Asian,Master's Degree, CA,US,146330.0
+Accenture,Management Consultant,100000,2,2,95000,Male,White,Bachelor's Degree, IL,US,134410.0
+SAP,Software Engineer,140000,8,8,117000,Male,Asian,Bachelor's Degree, VA,US,210420.0
+Intel,Hardware Engineer,125000,7,5,110000,Male,Asian,Master's Degree, TX,US,205760.0
+Microsoft,Software Engineer,227000,6,0,150000,Male,Asian,Master's Degree, WA,US,146330.0
+Opendoor,Software Engineer,147000,5,2,130000,Male,White,Master's Degree, CA,US,140790.0
+HSBC,Software Engineer,233000,9,4,194000,Male,Asian,Master's Degree, EN,United Kingdom,204080.0
+Google,Software Engineer,354000,12,12,183000,Male,Asian,PhD, CA,US,209230.0
+Microsoft,Software Engineer,156000,7,7,140000,Female,Asian,Bachelor's Degree, WA,US,210420.0
+Shopify,Software Engineer,150000,0,0,120000,Female,White,Bachelor's Degree, NY,US,138730.0
+IBM,Solution Architect,157000,13,1,150000,Male,Asian,Master's Degree, CA,US,153340.0
+IBM,Software Engineer,194000,13,13,194000,Male,Asian,Bachelor's Degree, MA,US,210420.0
+Two Sigma,Software Engineer,250000,9,7,165000,Male,White,Master's Degree, NY,US,204160.0
+Microsoft,Software Engineer,167000,6,3,137000,Male,Asian,Master's Degree, WA,US,153710.0
+Lockheed Martin,Software Engineer,128000,3,1,112000,Male,White,Bachelor's Degree, CA,US,143600.0
+Microsoft,Hardware Engineer,188000,4,1,147000,Female,Asian,Master's Degree, CA,US,149140.0
+Amazon,Software Engineer,215000,3,1,145000,Male,Asian,Master's Degree, WA,US,148150.0
+Apple,Hardware Engineer,202000,3,2,130000,Male,White,Bachelor's Degree, CA,US,136470.0
+Facebook,Software Engineer,185000,0,0,123000,Male,Asian,Master's Degree, CA,US,149870.0
+Amazon,Technical Program Manager,300000,16,4,160000,Male,Asian,Master's Degree, WA,US,204080.0
+Hulu,Technical Program Manager,272000,22,5,159000,Male,White,Master's Degree, CA,US,201090.0
+Stripe,Technical Program Manager,265000,7,1,171000,Male,White,Bachelor's Degree, CA,US,148370.0
+Google,Technical Program Manager,247000,3,0,150000,Male,White,Bachelor's Degree, CA,US,134870.0
+Google,Data Scientist,170000,3,3,170000,Male,White,Bachelor's Degree, CA,US,146510.0
+Zillow,Software Engineer,215000,9,2,155000,Male,Asian,Master's Degree, WA,US,145800.0
+Stripe,Product Manager,271000,10,1,142000,Male,White,Master's Degree, CA,US,148280.0
+Bloomberg,Software Engineer,165000,0,0,145000,Male,Black,Bachelor's Degree, NY,US,138730.0
+Facebook,Data Scientist,205000,0,0,150000,Female,Asian,PhD, CA,US,149870.0

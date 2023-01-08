@@ -1,0 +1,11 @@
+# BEGIN META
+# END META
+# BEGIN NODES AND EDGES
+JOB data_preprocessing:0 data_preprocessing.sub
+PARENT data_preprocessing:0 CHILD prediction:0
+JOB prediction:0 prediction.sub
+PARENT prediction:0 CHILD save_db:0
+PARENT prediction:0 CHILD send_email:0
+JOB save_db:0 save_db.sub
+JOB send_email:0 send_email.sub
+# END NODES AND EDGES

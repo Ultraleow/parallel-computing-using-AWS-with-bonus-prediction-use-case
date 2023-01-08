@@ -1,0 +1,10 @@
+executable = get_db_and_split.py
+output = get_db_and_split.out
+error = get_db_and_split.err
+log = get_db_and_split.log
+stream_output = True
+request_cpus = 1
+request_memory = 128MB
+request_disk = 128MB
+
+queue

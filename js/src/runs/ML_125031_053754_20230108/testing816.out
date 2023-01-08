@@ -1,0 +1,6 @@
+['/home/ubuntu/src/runs/ML_125031_053754_20230108', '1']
+/home/ubuntu/src/runs/ML_125031_053754_20230108/testing.csv
+Mean Absolute Error: 40285.34
+Root Mean Squared Error: 56981.64
+Mean squared error (linear model): 3246907700.62
+r2_score (linear model): -0.16

@@ -1,0 +1,11 @@
+executable = update_model.py
+output = update_model.out
+arguments = /home/ubuntu/src/runs/ML_125031_053754_20230108
+error = update_model.err
+log = update_model.log
+stream_output = True
+request_cpus = 1
+request_memory = 128MB
+request_disk = 128MB
+
+queue

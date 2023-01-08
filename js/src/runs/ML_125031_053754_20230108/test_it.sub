@@ -1,0 +1,11 @@
+executable = testing.py
+output = testing$(CLUSTER).out
+arguments = /home/ubuntu/src/runs/ML_125031_053754_20230108;$(x)
+error = testing$(CLUSTER).err
+log = testing$(CLUSTER).log
+stream_output = True
+request_cpus = 1
+request_memory = 128MB
+request_disk = 128MB
+
+queue

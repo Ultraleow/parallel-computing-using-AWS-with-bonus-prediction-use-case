@@ -1,0 +1,15 @@
+000 (807.000.000) 2023-01-08 04:50:31 Job submitted from host: <172.31.2.92:9618?addrs=172.31.2.92-9618&alias=ip-172-31-2-92.ec2.internal&noUDP&sock=schedd_521_f0ee>
+...
+001 (807.000.000) 2023-01-08 04:50:32 Job executing on host: <172.31.2.92:9618?addrs=172.31.2.92-9618&alias=ip-172-31-2-92.ec2.internal&noUDP&sock=schedd_521_f0ee>
+...
+005 (807.000.000) 2023-01-08 04:51:43 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
